@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Error Validations(failed)">
+    <classes>
+      <class name="firstmavenproject.tests.ErrorValidationTest">
+        <methods>
+          <include name="loginError"/>
+          <include name="launchApplication"/>
+          <include name="productError"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- firstmavenproject.tests.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validations(failed) -->
+  <test thread-count="5" parallel="tests" name="Submit Orders(failed)">
+    <classes>
+      <class name="firstmavenproject.tests.SubmitOrderCopyTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="SubmitOrder"/>
+          <include name="OrderHistory"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- firstmavenproject.tests.SubmitOrderCopyTest -->
+    </classes>
+  </test> <!-- Submit Orders(failed) -->
+</suite> <!-- Failed suite [Suite] -->

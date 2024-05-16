@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="tests" name="Suite">
+<listeners>
+	<listener class-name = "firstmavenproject.testcomponents.Listeners"/>
+</listeners>
+<test thread-count="5" name="Submit Orders">
+    <classes>
+      <class name="firstmavenproject.tests.SubmitOrderCopyTest"/>
+          </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Error Validations">
+    <classes>
+     <class name="firstmavenproject.tests.ErrorValidationTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

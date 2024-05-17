@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="Suite">
+<suite parallel="tests" name="Suite">
 <Listeners>
 	<Listener class-name = "firstmavenproject.testcomponents.Listeners"/>
 </Listeners>

@@ -25,7 +25,7 @@ public class ErrorValidationTest extends BaseTest {
 		
 		landingPage.loginApplication("Shakkila.blr@gmail.com", "Aah@2008");
 		landingPage.loginError();
-		Assert.assertEquals("Incorrect email  password", landingPage.loginError());
+		Assert.assertEquals("Incorrect email or password.", landingPage.loginError());
 		}
 	@Test
 	public void productError() throws IOException, InterruptedException {
@@ -38,7 +38,7 @@ public class ErrorValidationTest extends BaseTest {
 		Boolean match = cartPage.VerifyProductsDisplay("ADIDAS ORIG");
 		Assert.assertFalse(match);
 		//test commit
-		System.out.println("test msg123");
+		
 		
 		
 

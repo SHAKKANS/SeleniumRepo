@@ -1,0 +1,47 @@
+package firstmavenproject.tests;
+
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import java.io.IOException;
+import java.util.List;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import firstmavenproject.pageobjects.CartPage;
+import firstmavenproject.pageobjects.CheckOutPage;
+import firstmavenproject.pageobjects.ConfirmationPage;
+import firstmavenproject.pageobjects.ProductCatalogue;
+import firstmavenproject.testcomponents.BaseTest;
+
+public class ErrorValidationTest extends BaseTest {
+
+	@Test(groups = {"ErrorHandling"})
+	public void loginError() throws IOException, InterruptedException {
+		
+		landingPage.loginApplication("Shakkila.blr@gmail.com", "Aah@2008");
+		landingPage.loginError();
+		Assert.assertEquals("Incorrect email  password", landingPage.loginError());
+		}
+	@Test
+	public void productError() throws IOException, InterruptedException {
+		String productName = "ADIDAS ORIGINAL";
+		ProductCatalogue productCatalogue = landingPage.loginApplication("Shakkila.blr@gmail.com", "Aahi@2008");
+		// Productpage-adding item
+		List<WebElement> products = productCatalogue.getProductList();
+		productCatalogue.addProductToCart(productName);
+		CartPage cartPage=productCatalogue.goToCart();
+		Boolean match = cartPage.VerifyProductsDisplay("ADIDAS ORIG");
+		Assert.assertFalse(match);
+		//test commit
+		System.out.println("test msg");
+		
+		
+
+	}
+	
+}

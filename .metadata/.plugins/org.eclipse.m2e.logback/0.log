@@ -25,3 +25,17 @@
 2024-05-18 14:24:05,314 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FirstMavenProject:FirstSeleniumFramework:0.0.1-SNAPSHOT @ C:\Users\Shakk\Downloads\RemoteRepo\GitProject\pom.xml.
 2024-05-18 14:24:06,546 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\Downloads\RemoteRepo\GitProject\src\main\resources
 2024-05-18 14:24:06,552 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\Downloads\RemoteRepo\GitProject\src\test\resources
+2024-05-19 08:22:43,492 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-19 08:22:51,178 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: FirstMavenProject:FirstSeleniumFramework:0.0.1-SNAPSHOT @ C:\Users\Shakk\SeleniumRepo\GitProject\pom.xml.
+2024-05-19 08:22:52,032 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 08:22:52,066 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
+2024-05-19 08:24:13,507 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 08:24:13,514 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
+2024-05-19 21:00:27,074 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-19 22:51:05,195 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-19 22:53:25,260 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 22:53:25,268 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
+2024-05-19 22:55:19,871 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 22:55:19,874 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
+2024-05-19 23:06:00,148 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 23:06:00,151 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources

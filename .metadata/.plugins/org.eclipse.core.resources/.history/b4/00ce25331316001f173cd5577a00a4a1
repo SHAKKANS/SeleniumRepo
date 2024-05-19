@@ -38,7 +38,6 @@ public class ErrorValidationTest extends BaseTest {
 		Boolean match = cartPage.VerifyProductsDisplay("ADIDAS ORIG");
 		Assert.assertFalse(match);
 		//test commit
-		//test 1234567890
 		
 		
 		}

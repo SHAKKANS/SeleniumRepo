@@ -20,7 +20,7 @@ import firstmavenproject.pageobjects.ProductCatalogue;
 import firstmavenproject.testcomponents.BaseTest;
 
 public class SubmitOrderCopyTest extends BaseTest {
-	String productName = "ADIDAS ORIGINAL";
+	String productName = "ADIDAS ORIGINAL1";
 
 	@Test(dataProvider = "getData", groups = { "Purchase" })
 	public void SubmitOrder(HashMap<String, String> input) throws IOException, InterruptedException {

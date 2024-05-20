@@ -39,3 +39,5 @@
 2024-05-19 22:55:19,874 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
 2024-05-19 23:06:00,148 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
 2024-05-19 23:06:00,151 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources
+2024-05-19 23:08:39,173 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\main\resources
+2024-05-19 23:08:39,177 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Shakk\SeleniumRepo\GitProject\src\test\resources

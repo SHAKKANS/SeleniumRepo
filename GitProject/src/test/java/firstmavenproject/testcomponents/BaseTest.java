@@ -1,10 +1,8 @@
 package firstmavenproject.testcomponents;
 
-import java.awt.Dimension;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.lang.module.Configuration;
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.HashMap;
@@ -18,8 +16,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.ITestContext;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -42,19 +38,20 @@ public class BaseTest {
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\GlobalData.properties");
 		prop.load(fis);
-		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser"): prop.getProperty("browser");
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
+				: prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
-			if(browserName.contains("headless")) {
+			if (browserName.contains("headless")) {
 				options.addArguments("headless");
 			}
 			driver = new ChromeDriver(options);
-			//driver.manage().window().setSize(new Dimension(1440,900));
-			
-			//options.setBinary("C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
-			//			driver = new ChromeDriver();
+			// driver.manage().window().setSize(new Dimension(1440,900));
+
+			// options.setBinary("C:\\Program Files\\chromedriver-win64\\chromedriver.exe");
+			// driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			// edge
 			System.setProperty("webdriver.edge.driver", "C:\\Users\\Shakk\\Documents\\edgedriver_win64");

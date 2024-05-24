@@ -9,16 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Error Validations</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">46,287</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Submit Orders</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">91,162</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">137,449</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Error Validations</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">11,601</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Submit Orders</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">54,067</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">65,668</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Error Validations &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">firstmavenproject.tests.ErrorValidationTest</td><td><a href="#m0">loginError</a></td><td rowspan="1">1715691319759</td><td rowspan="1">1377</td></tr><tr class="passedeven"><td><a href="#m1">productError</a></td><td rowspan="1">1715691323944</td><td rowspan="1">3230</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Submit Orders &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">firstmavenproject.tests.SubmitOrderCopyTest</td><td><a href="#m2">OrderHistory</a></td><td rowspan="1">1715691369930</td><td rowspan="1">2060</td></tr><tr class="passedeven"><td><a href="#m3">SubmitOrder</a></td><td rowspan="2">1715691327550</td><td rowspan="2">5765</td></tr><tr class="passedeven"><td><a href="#m4">SubmitOrder</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Error Validations &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">firstmavenproject.tests.ErrorValidationTest</td><td><a href="#m0">loginError</a></td><td rowspan="1">1716538678703</td><td rowspan="1">661</td></tr><tr class="passedeven"><td><a href="#m1">productError</a></td><td rowspan="1">1716538681065</td><td rowspan="1">3196</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Submit Orders &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">firstmavenproject.tests.SubmitOrderCopyTest</td><td><a href="#m2">OrderHistory</a></td><td rowspan="1">1716538725792</td><td rowspan="1">909</td></tr><tr><th colspan="4">Submit Orders &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">firstmavenproject.tests.SubmitOrderCopyTest</td><td><a href="#m3">SubmitOrder</a></td><td rowspan="2">1716538719172</td><td rowspan="2">5229</td></tr><tr class="passedeven"><td><a href="#m4">SubmitOrder</a></td></tr></tbody>
 </table>
 <h2>Error Validations</h2><h3 id="m0">firstmavenproject.tests.ErrorValidationTest#loginError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">firstmavenproject.tests.ErrorValidationTest#productError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Submit Orders</h2><h3 id="m2">firstmavenproject.tests.SubmitOrderCopyTest#OrderHistory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Submit Orders</h2><h3 id="m2">firstmavenproject.tests.SubmitOrderCopyTest#OrderHistory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at firstmavenproject.tests.SubmitOrderCopyTest.OrderHistory(SubmitOrderCopyTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">firstmavenproject.tests.SubmitOrderCopyTest#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Aahi@2008, product=ZARA COAT 3, email=aahilihs253@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">firstmavenproject.tests.SubmitOrderCopyTest#SubmitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Aahi@2008, product=ADIDAS ORIGINAL, email=Shakkila.blr@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

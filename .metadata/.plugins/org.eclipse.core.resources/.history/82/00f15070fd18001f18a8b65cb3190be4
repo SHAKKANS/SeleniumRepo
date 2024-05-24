@@ -1,0 +1,14 @@
+
+
+public class DataFromExcel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		fileinputstream fis = NEW fileinputstream()
+		XSSFworkbook workbook = NEW XSSFworkbook(fis);
+
+	}
+
+}

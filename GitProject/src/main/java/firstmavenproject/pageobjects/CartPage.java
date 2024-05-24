@@ -10,8 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import firstmavenproject.AbstractComponents.AbstractComponent;
 
 public class CartPage extends AbstractComponent{
-	
-	
+		
 	
 	WebDriver driver;
 	
@@ -40,4 +39,5 @@ public class CartPage extends AbstractComponent{
 		checkoutEle.click();
 		return new CheckOutPage(driver);
 			}
+	
 	}
